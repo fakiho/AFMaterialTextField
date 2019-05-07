@@ -1,0 +1,6 @@
+framework module AFMaterialTextField {
+  umbrella header "AFMaterialTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

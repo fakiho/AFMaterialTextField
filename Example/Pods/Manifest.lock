@@ -1,0 +1,16 @@
+PODS:
+  - AFMaterialTextField (0.1.0)
+
+DEPENDENCIES:
+  - AFMaterialTextField (from `../`)
+
+EXTERNAL SOURCES:
+  AFMaterialTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFMaterialTextField: 9f0c78e3009412b5854a86b129d0b388d42b0513
+
+PODFILE CHECKSUM: ed4dca926ba2999afff5c2419afe0d3cc260b9ff
+
+COCOAPODS: 1.6.1
