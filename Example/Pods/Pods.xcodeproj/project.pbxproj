@@ -18,6 +18,7 @@
 		450DD3812280716100144C5E /* Urils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DD3772280716100144C5E /* Urils.swift */; };
 		450DD3822280716100144C5E /* AFMaterialTextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DD3782280716100144C5E /* AFMaterialTextFieldEffects.swift */; };
 		450DD3832280716100144C5E /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450DD3792280716100144C5E /* FieldType.swift */; };
+		45DEEF27228195BD00AC3E5F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DEEF26228195BD00AC3E5F /* Media.xcassets */; };
 		96654CA937E8751BCABE885F054141F7 /* AFMaterialTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D988B0B0707BD61E06576A9DEC9B6C /* AFMaterialTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A772A47610F973BA54FE7168B7CE737 /* Pods-AFMaterialTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355FBC997AAD8067F814F7EC97DCA6EE /* Pods-AFMaterialTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A7030EBD8A44149F31E3814AE536DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -53,6 +54,7 @@
 		450DD3772280716100144C5E /* Urils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urils.swift; sourceTree = "<group>"; };
 		450DD3782280716100144C5E /* AFMaterialTextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFMaterialTextFieldEffects.swift; sourceTree = "<group>"; };
 		450DD3792280716100144C5E /* FieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
+		45DEEF26228195BD00AC3E5F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		5B87363D13A7CAAFF3C2A958DBDBB808 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E40580958AB7B425B5547168F4C3CB1 /* Pods-AFMaterialTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFMaterialTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		606E6E46CBB5933E6B6568B2E25702F8 /* AFMaterialTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AFMaterialTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -98,27 +100,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		450DD36E2280716100144C5E /* PasswordTextFiled */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PasswordTextFiled;
-			sourceTree = "<group>";
-		};
-		450DD3742280716100144C5E /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		450DD3762280716100144C5E /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		450DD384228160AD00144C5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +110,6 @@
 				450DD3712280716100144C5E /* RegexRule.swift */,
 				450DD3722280716100144C5E /* SecureTextToggleButton.swift */,
 				450DD3732280716100144C5E /* PasswordTextFiled.swift */,
-				450DD36E2280716100144C5E /* PasswordTextFiled */,
-				450DD3742280716100144C5E /* Animation */,
-				450DD3762280716100144C5E /* Utils */,
 				450DD3782280716100144C5E /* AFMaterialTextFieldEffects.swift */,
 				450DD3792280716100144C5E /* FieldType.swift */,
 				450DD36D2280716100144C5E /* AFTextFiled.swift */,
@@ -176,6 +154,7 @@
 				05551D5906F7C6E2B0DA2E67E310F6B4 /* AFMaterialTextField-Info.plist */,
 				BA51C533E5409B1F6CF37D154167867F /* AFMaterialTextField-prefix.pch */,
 				A8D988B0B0707BD61E06576A9DEC9B6C /* AFMaterialTextField-umbrella.h */,
+				45DEEF26228195BD00AC3E5F /* Media.xcassets */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AFMaterialTextField";
@@ -327,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DEEF27228195BD00AC3E5F /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
